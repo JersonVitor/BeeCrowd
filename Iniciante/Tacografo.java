@@ -9,6 +9,8 @@ public class Tacografo {
     public static void main(String[] args) throws IOException {
       int tam = Integer.parseInt(sc.nextLine());
         System.out.println(tacografo(tam));
+        sc.close();
+
     }
     public static int tacografo(int tam){
         String entrada ;

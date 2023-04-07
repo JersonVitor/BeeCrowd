@@ -10,6 +10,8 @@ public class Pneu {
       int pressaoD = sc.nextInt();
       int pressaoL = sc.nextInt();
       System.out.println((pressaoD-pressaoL));
+        sc.close();
+
     }
  
 }

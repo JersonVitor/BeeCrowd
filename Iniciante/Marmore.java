@@ -17,7 +17,10 @@ public class Marmore {
           pesquisaBinaria(dados,consultas,entrada[1]);
           i++;
           entrada=conversor(sc.nextLine());
+
       }
+        sc.close();
+
     }
 
     public static void pesquisaBinaria(int[] dados, int[] consultas, int j) {

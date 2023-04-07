@@ -8,6 +8,8 @@ public class FatorialSimples {
     public static void main(String[] args) throws IOException {
      int n=sc.nextInt();
      System.out.println(fatorial(n));
+        sc.close();
+
     }
     public static int fatorial(int n){
         int f;

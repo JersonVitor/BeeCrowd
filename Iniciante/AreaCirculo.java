@@ -1,20 +1,19 @@
 package BeeCrowd.Iniciante;
 import java.io.IOException;
-import java.math.BigDecimal;
+import java.text.DecimalFormat;
 
 import java.util.Scanner;
  
 
 public class AreaCirculo {
- 
+    static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) throws IOException {
- 
-       Scanner scanner = new Scanner(System.in);
+
        double raio = scanner.nextDouble();
        double area =  ((raio*raio)*3.14159);
-       BigDecimal bd = new BigDecimal(area).setScale(4);
-       double roundedNum = bd.doubleValue();
-       System.out.println("A="+roundedNum);
+       DecimalFormat df = new DecimalFormat("#0.0000");
+       String formattedNum = df.format(area);
+       System.out.println("A="+formattedNum);
        scanner.close();
     }
  

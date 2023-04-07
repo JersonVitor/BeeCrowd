@@ -11,6 +11,8 @@ public class QuadradoECubo {
         for (int i = 1; i <=x ; i++) {
             System.out.println(i+" "+((int)pow(i,2))+" "+((int)pow(i,3)));
         }
+        sc.close();
+
     }
 
 }

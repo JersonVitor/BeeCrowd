@@ -14,6 +14,8 @@ public class Mandioca {
         array[i]=sc.nextInt();
       }
       System.out.println(qtdMandioca(array));
+        sc.close();
+
     }
     public static int qtdMandioca(int []array) {
         int qtdMandioca = 225;

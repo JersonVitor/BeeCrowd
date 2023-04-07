@@ -9,6 +9,7 @@ public class DDD {
     public static void main(String[] args) throws IOException {
      int in = sc.nextInt();
      System.out.println(identificaDDD(in));
+     sc.close();
     }
     public static String identificaDDD(int in) {
         int i=0;
@@ -29,5 +30,6 @@ public class DDD {
             resp="DDD nao cadastrado";
         }
         return resp;
+
     }
 }

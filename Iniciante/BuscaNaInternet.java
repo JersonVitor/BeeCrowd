@@ -8,5 +8,6 @@ public class BuscaNaInternet {
        int x = sc.nextInt();
        int resp= 2*(2*x);
        System.out.println(resp);
+        sc.close();
     }
 }

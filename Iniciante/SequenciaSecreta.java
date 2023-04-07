@@ -13,6 +13,8 @@ public class SequenciaSecreta {
         array[i]=sc.nextInt();
      }
      System.out.println(resolveSequencia(array));
+        sc.close();
+
     }
     public static int resolveSequencia(int[]array){
         int count = 0;

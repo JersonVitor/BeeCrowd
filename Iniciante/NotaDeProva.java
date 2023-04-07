@@ -9,6 +9,8 @@ public class NotaDeProva {
     public static void main(String[] args) throws IOException {
       int nota = sc.nextInt();
         System.out.println(converteNota(nota));
+        sc.close();
+
     }
 
     private static char converteNota(int nota) {

@@ -15,6 +15,8 @@ public class PPAtaqueAereo {
             j2 = sc.nextLine();
             System.out.println(PPA(j1, j2));
     }
+        sc.close();
+
     }
 
     /**

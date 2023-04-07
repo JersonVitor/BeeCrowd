@@ -9,6 +9,8 @@ import java.io.IOException;
         String cha=sc.nextLine();
         String competidores = sc.nextLine();
         System.out.println(identificador(cha,competidores));
+        sc.close();
+
     }
     public static int identificador(String cha,String competidores){
         int vencedores = 0;
