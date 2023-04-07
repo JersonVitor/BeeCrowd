@@ -17,7 +17,13 @@ public class PPAtaqueAereo {
     }
     }
 
-    public static String PPA(String j1,String j2) {
+    /**
+     * Método que verifica o ganhador do Pedra,Papel,Ataque
+     * @param j1 jogador 1
+     * @param j2 jogador 2
+     * @return o resultado da partida
+     */
+    public static String PPA( String j1, String j2) {
         String resp="A";
         if(j1.equals(j2)){
             if(j1.equals("papel")){

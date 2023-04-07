@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Biblioteca {
+
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         
@@ -26,7 +27,7 @@ public class Biblioteca {
  * Lista
  */
  class Lista {
-    String cod[];
+    String[] cod;
     int n;
     Lista(int tamanho){
         cod=new String[tamanho];
